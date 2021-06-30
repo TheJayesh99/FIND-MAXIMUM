@@ -29,7 +29,6 @@ public class FindMaximum <T extends Comparable<T>>
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter by which way you have to fnd maximum \n 1) Using Compaare \n 2) Using Sorting");
 		int option = scanner.nextInt();
-		scanner.close();
 		switch (option) {
 		case 1:
 			T maximum = value1;
